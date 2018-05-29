@@ -14,4 +14,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Trail\" />
+    <Folder Include="Views\Stops\" />
+  </ItemGroup>
+
 </Project>

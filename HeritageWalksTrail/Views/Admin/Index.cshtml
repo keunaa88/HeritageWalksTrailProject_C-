@@ -1,10 +1,13 @@
 ﻿@model IEnumerable<HeritageWalksTrail.Models.Admin>
 @{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Admin list";
 }
+<h2>Admin list</h2>
 
-<h2>Login</h2>
 
+<form asp-controller="Admin" asp-action="New" method="post">
+    <button type="submit">New</button>
+</form>
 
 <table class="table">
     <tr>
@@ -13,7 +16,7 @@
         <th>First Name</th>
         <th>Last Name</th>
         <th>Role</th>
-        
+        <th></th>
     </tr>
     @foreach (var item in Model)
     {
@@ -32,6 +35,11 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.role)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
             </td>
         </tr>
     }

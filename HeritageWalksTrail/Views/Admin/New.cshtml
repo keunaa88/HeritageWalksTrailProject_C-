@@ -1,0 +1,23 @@
+﻿
+
+@model Admin
+@{
+    ViewData["Title"] = "New";
+}
+
+<h2>Add Admin</h2>
+
+<div class="form-style">
+    <div class="form-style-heading">Provide your information</div>
+    <form asp-controller="Admin" asp-action="Insert" method="post">
+
+        <label><span>Id <span class="required">*</span></span><input asp-for="adminId" class="input-field" /></label>
+        <label><span>Password <span class="required">*</span></span><input asp-for="password" class="input-field" /></label>
+        <label><span>First Name </span><input asp-for="firstName" class="input-field" /></label>
+        <label><span>Last Name </span><input asp-for="lastName" class="input-field" /></label>
+        <label><span>Role </span><input asp-for="role" class="input-field" /></label>
+       
+        <label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+    </form>
+</div>
+

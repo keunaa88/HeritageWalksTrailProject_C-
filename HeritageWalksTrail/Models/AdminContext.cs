@@ -31,7 +31,7 @@ namespace HeritageWalksTrail.Models
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from Admin where id < 10", conn);
+                MySqlCommand cmd = new MySqlCommand("select * from Admin", conn);
 
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -40,8 +40,10 @@ namespace HeritageWalksTrail.Models
                         list.Add(new Admin()
                         {
                             id = Convert.ToInt32(reader["id"]),
+                            adminId = reader["adminId"].ToString(),
                             firstName = reader["firstName"].ToString(),
-                            lastName = reader["lastName"].ToString()
+                            lastName = reader["lastName"].ToString(),
+                            role = reader["role"].ToString()
 
                         });
                     }
