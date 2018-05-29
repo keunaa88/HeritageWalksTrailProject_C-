@@ -7,7 +7,7 @@ namespace HeritageWalksTrail.Models
 {
     public class Admin
     {
-        private AdminContext context;
+       // private AdminContext context;
 
         public int id { get; set; }
 

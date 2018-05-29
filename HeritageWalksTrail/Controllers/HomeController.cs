@@ -13,9 +13,7 @@ namespace HeritageWalksTrail.Controllers
         public IActionResult Index()
         {
 
-            AdminContext context = HttpContext.RequestServices.GetService(typeof(Models.AdminContext)) as AdminContext;
-
-            return View(context.GetAllAdmin());
+            return View();
 
         }
 
