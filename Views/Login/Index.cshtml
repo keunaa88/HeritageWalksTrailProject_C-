@@ -1,0 +1,38 @@
+﻿@model IEnumerable<HeritageWalksTrail.Models.AdminViewModel>
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Admin ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Role</th>
+        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adminId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.role)
+            </td>
+        </tr>
+    }
+</table>

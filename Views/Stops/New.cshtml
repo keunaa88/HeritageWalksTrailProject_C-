@@ -1,0 +1,58 @@
+﻿@model HeritageWalksTrail.Models.StopsViewModel
+
+@{
+    ViewData["Title"] = "New";
+}
+
+<h2>Add Stop</h2>
+
+<hr />
+<div class="form-style">
+    <div class="form-style-heading">Input new stop details</div>
+    <form asp-action="New" asp-controller = "Stops" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="name" class="control-label"><span>Name <span class="required"> *</span></span></label>
+            <input asp-for="name" class="form-control" />
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="trail_id" class="control-label"><span>Trail <span class="required"> *</span></span></label>
+            <select asp-for="trail_id" asp-items="@Model.trailList"></select>
+            <span asp-validation-for="trail_id" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="description" class="control-label"><span>Description</span></label>
+            <textarea asp-for="description" class="form-control"></textarea>
+            <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="photoName" class="control-label" ><span>Photo </span></label>
+            <input asp-for="photoName" class="form-control" />
+            <span asp-validation-for="photoName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="timeSpent" class="control-label"><span>Time </span></label>
+            <input asp-for="timeSpent" class="form-control" />
+            <span asp-validation-for="timeSpent" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="latitude" class="control-label"><span>Latitude <span class="required"> *</span></span></label>
+            <input asp-for="latitude" class="form-control" />
+            <span asp-validation-for="latitude" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="longitude" class="control-label"><span>Longitude <span class="required"> *</span></span></label>
+            <input asp-for="longitude" class="form-control" />
+            <span asp-validation-for="longitude" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="audioName" class="control-label"><span>Audio </span></label>
+            <input asp-for="audioName" class="form-control" />
+            <span asp-validation-for="audioName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </form>
+</div>

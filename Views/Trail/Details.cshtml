@@ -1,0 +1,53 @@
+﻿@model HeritageWalksTrail.Models.TrailViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Edit Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.colorCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.colorCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.photoName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.photoName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.distance)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.distance)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.totalTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.totalTime)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

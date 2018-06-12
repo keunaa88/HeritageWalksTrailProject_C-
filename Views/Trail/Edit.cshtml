@@ -1,0 +1,57 @@
+﻿@model HeritageWalksTrail.Models.TrailViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Trail Edit</h2>
+
+<hr />
+<div class="row form-style">
+    <div class="form-style-heading">Edit the trail</div>
+    <form asp-action="Edit" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="id" class="control-label"><span>Id <span class="required"> *</span></span></label>
+            <input asp-for="id" class="form-control" readonly="@(true)" />
+            <span asp-validation-for="id" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="name" class="control-label"><span>Name <span class="required"> *</span></span></label>
+            <input asp-for="name" class="form-control"/>
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="description" class="control-label"><span>Description </span></label>
+            <textarea asp-for="description" class="form-control" ></textarea>
+            <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="colorCode" class="control-label"><span>Color <span class="required"> *</span></span></label>
+            <select asp-for="colorCode" asp-items="@Model.colorCodeSelectList"></select>
+            <span asp-validation-for="colorCode" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="photoName" class="control-label"><span>Photo </span></label>
+            <input asp-for="photoName" class="form-control" />
+            <span asp-validation-for="photoName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="distance" class="control-label"><span>Distance <span class="required"> *</span></span></label>
+            <input asp-for="distance" class="form-control" />
+            <span asp-validation-for="distance" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="totalTime" class="control-label"><span>Total Time <span class="required"> *</span></span></label>
+            <input asp-for="totalTime" class="form-control" />
+            <span asp-validation-for="totalTime" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
