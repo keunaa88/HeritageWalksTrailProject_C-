@@ -1,0 +1,22 @@
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.deps.json
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.runtimeconfig.json
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.runtimeconfig.dev.json
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.dll
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.pdb
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.csprojResolveAssemblyReference.cache
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.csproj.CoreCompileInputs.cache
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.AssemblyInfoInputs.cache
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.AssemblyInfo.cs
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.dll
+C:\Users\J378116\source\repos\Project\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.pdb
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.deps.json
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.runtimeconfig.json
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.runtimeconfig.dev.json
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.dll
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\bin\Release\netcoreapp2.0\HeritageWalksTrail.pdb
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.csprojResolveAssemblyReference.cache
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.csproj.CoreCompileInputs.cache
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.AssemblyInfoInputs.cache
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.AssemblyInfo.cs
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.dll
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\obj\Release\netcoreapp2.0\HeritageWalksTrail.pdb

@@ -1,0 +1,25 @@
+E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=HeritageWalksTrail
+--content-root=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Admin\Details.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Admin\Edit.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Admin\Index.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Admin\New.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Home\About.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Home\Contact.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Home\Index.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Login\Index.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Shared\Error.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Shared\_Layout.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Stops\Details.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Stops\Edit.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Stops\Index.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Stops\New.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Trail\Details.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Trail\Edit.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Trail\Index.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\Trail\New.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\_ViewImports.cshtml
+--file=E:\08. Tafe\02. Project\HeritageProject_Csharp\HeritageWalksTrail\HeritageWalksTrail\Views\_ViewStart.cshtml
